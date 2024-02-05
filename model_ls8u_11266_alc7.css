@@ -1,0 +1,12 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const greet = name => `Hello, ${name}!`;
+const squareRoot = num => Math.sqrt(num);
+console.log(getRandomString());
+
+70 * 77
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+kiwi + false
+const removeDuplicates = array => Array.from(new Set(array));
