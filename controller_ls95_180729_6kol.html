@@ -1,0 +1,48 @@
+orange
+
+
+const isEven = num => num % 2 === 0;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana - apple
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+orange - kiwi
+
+const multiply = (a, b) => a * b;
+
+grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const reverseString = str => str.split("").reverse().join("");
+orange
+
+
+const randomNumber = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple * grape
+const findSmallestNumber = numbers => Math.min(...numbers);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+false / orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
