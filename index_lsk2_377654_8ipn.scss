@@ -1,0 +1,14 @@
+false * apple
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const sum = (a, b) => a + b;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+99,13,92,72,76,9,67,47,11,71,98,66,0,93,4,2,9,39,47,77,52,83,71,90,86,56,95,21,30,94,93,20,91,40,1,87,2,4,57,48,70,48,8,79,46,94,89 / true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const multiply = (a, b) => a * b;
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+71,23,91,35,82,30,17,66,98,72,74,66,81,5,91,98,42,76,11,82,68,39,61,65,10,8,91,98,79 + true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
