@@ -1,0 +1,14 @@
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+89,86,86,49,53,71,58,80,93,49,77,29,90,10,44,18,5,27,86 + 58
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+87,81,64,84,27,41,29,77,29,52,42,13,87,89,69,10,48,33,75,91,41,99,84,58,98,23,82,64,75,51,47,61,36,85,5,91,14,95,50,17,70,50,39,83,91,30,60,89,53,25,16 * 52,97,77,50,26,57,50,20,49,63,32,15,42,60,29,87,36,93,56,16,31,36,71,55,36,49,62,58,0,27,21,80,11,97,33,11,32,54,19
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+90 / 20
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
