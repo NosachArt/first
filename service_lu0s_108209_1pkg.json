@@ -1,0 +1,20 @@
+40,63,13,80,8,10,4,17,87,69,83,60,12,88,36,68,21,60,15,10,5,54,76,98,83,92,79,44,36,8,57,42,71,44,43,84,23,58,45,40,22,18,99,81,45,50,93,55,8,94,21,12 * banana
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const isEven = num => num % 2 === 0;
+banana
+
+
+const removeDuplicates = array => Array.from(new Set(array));
+30,95,53,62,11,71,96,97,50,77,70,86,84,66,18,51,93,50,18,54,5,10,5,42,5,22,33,51,20,22,60,91 * 88
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape / 55,87,15,36,62,26,90,30,62,89,63,26,20,0,17,32,98,94,51,31,39,67,67,63,86,52,96,83,36,52,82,40,10,64,1,45,6,20,76,88,49,27,88,1,78,69,90,70,88,25,61,72,69,50,80,27,1,41,2,90,23,49,58,43,62,74,40,61,89,40,68,0,27,39,88,43
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const reverseString = str => str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true * true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
