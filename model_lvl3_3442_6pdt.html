@@ -1,0 +1,34 @@
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+kiwi - apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+83 - true
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+banana - 2
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+true + 15
+const isEven = num => num % 2 === 0;
+console.log(getRandomString());
+const formatDate = date => new Date(date).toLocaleDateString();
+const capitalizeString = str => str.toUpperCase();
+const greet = name => `Hello, ${name}!`;
+orange
+
+
+const sum = (a, b) => a + b;
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+false - kiwi
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
